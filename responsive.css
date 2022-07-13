@@ -1,0 +1,125 @@
+
+@media (min-width:992px){
+    .sidebar{
+        display: none;
+        visibility: hidden;
+    }
+    .mobile-menu{
+        visibility: hidden;
+    }
+    
+}   
+@media (max-width:991px){
+    .blog-bg{
+        display: none;
+    }
+    .blog-img2{
+        margin: 0px auto;
+    } 
+    .blog-right {
+        padding-top: 217px;
+    }
+    .sidebar{
+        margin-top: 40px;
+    }
+    .mobile-menu{
+        opacity: 1;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+    }
+    .testimonial-item{
+        flex-wrap: wrap;
+    }
+    
+    .main-menu{
+        display: none;
+    }
+    .nav-contract2{
+        opacity: 1;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .slide-blog{
+        text-align: center;
+        margin-left: -33px;
+        margin-bottom: 13px;
+    }
+    .crt-icon{
+        margin-left: 0px; 
+    }
+    .crt-icon i{
+        font-size: 18px;
+    }
+    .banner-img img{
+        justify-content: center;
+    }
+    .testimonial-iitem {
+        padding-top: 88px;
+    }
+    .support-item {
+        margin-top: 30px;
+    }
+    .service-heading {
+        margin-top: 100px;
+    }
+}
+@media (max-width:768px){ 
+     
+    .sidebar{
+        margin-top: 0px;
+    }
+    .contract {
+        font-family: Poppins;
+        color: #fff;
+        font-size: 12px;
+        line-height: 0px;
+        letter-spacing: 0em;
+        text-align: left;
+        display:flex;
+        transform: translateY(50%);
+    }
+    .contract p{
+        font-style: medium;
+        font-size: 12px;
+        line-height: px;
+        vertical-align: top;
+        margin: 0px; ;
+        margin-bottom: 0px;
+    }
+    .social-link li a {
+        display: block;
+        color: #1D274D;
+        text-align: center;
+        padding: 8px 10px;
+        text-decoration: none;
+      }
+      .sub-header{
+          display: none;
+          visibility: hidden;
+      }
+    .mobile-menu {
+        top: 24px;
+    }
+}
+    @media (max-width:576px){ 
+         
+    .sidebar{
+        margin-top: 0px;
+    }
+    .blog-img2 img {
+        margin: -106px;
+    }
+    .blog-right {
+        padding-top: 123px;
+    }
+    .slider1 {
+        margin-top: 25px;
+    }
+    .blog-checkbox li {
+        margin-right: 0px;
+    }
+} 
